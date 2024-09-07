@@ -1,0 +1,117 @@
+.create-success{
+    color:green;
+    font-weight:bold;
+}
+.alert-info hr {
+    border-top-color: rgb(88, 83, 82);
+    margin: 0px;
+    padding: 5px;
+}
+.chon-dinh-kem-input input {
+    /*max-width: 222px;*/
+}
+.danh-sach-bai-da-dang textarea {
+    width: 100%;
+}
+
+div#loading {
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.select2-container .select2-selection--single{
+    height: 35px !important;
+}
+
+.btn-success,
+.btn-primary ,
+.bg-primary {
+    background-color: #1b1293!important;
+}
+.btn-success,
+.btn-primary {
+    border-color: #1b1293!important;
+}
+a.nav-link {
+    font-size: 22px;
+    color: #1b1293;
+}
+
+p.chkbox {
+    margin: 0;
+}
+.list-group-item 
+ label.form-inline {
+    margin: 0;
+}
+span.tk-facebook-hien-tai {
+    color: red;
+}
+.list-group-item {
+    padding: 3px 10px;
+}
+.loadersmall {
+    border: 2px solid #f3f3f3;
+    -webkit-animation: spin 1s linear infinite;
+    animation: spin 1s linear infinite;
+    border-top: 2px solid #555;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    vertical-align: -3px;
+    display: none;
+    margin-right: 6px;
+}
+.active > .loadersmall {
+    display: inline-block;
+}
+@keyframes  spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+.list-action-fill-content-message {
+    text-align: right;
+}
+.list-action-fill-content-message button {
+    border: 0!important;
+    margin-top: 3px;
+    font-weight: 300;
+    padding: 2px 5px;
+}
+.list-action-fill-content-message button i {
+    margin-right: 5px;
+}
+
+.btn-them-spin {
+    background: #ef6c00!important;
+}
+.btn-them-icon-ngau-nhien {
+    background: #4e342e!important;
+}
+.btn-them-thoi-gian-hien-tai {
+    background: #37474f!important;
+}
+.mo-ta-short-code{
+    color: #1b5e20!important;
+}
+.list-icon-random-item {
+    border: 1px solid #dedede;
+    margin: 10px 0;
+    padding: 5px;
+    border-radius: 8px;
+    cursor: pointer;
+    background: #ff980038;
+}
+
+/*a#nav-account-tab {
+    display: none;
+}
+.group-thay-doi-tk,
+.box-thay-doi-tai-khoan-quet {
+    display: none;
+}*/
